@@ -1,0 +1,36 @@
+body>div.header>nav>div.container>div.icon-aria>a>div.icon{
+    width:40px;
+    height: 28px;
+    border:2px solid;
+    margin: 15px 0px 5px 0px;
+    padding: 3px 0px 5px 0px;
+    border-radius: 5px;
+    transition: 0.5 all;
+}
+
+/* hover effect */
+body>div.header>nav>div.container>div.icon-aria>a>div.icon:hover{
+    border:2px solid orangered;
+}
+
+body>div.header>nav>div.container>div.icon-aria>a>div.icon:hover>span{
+    border-bottom: 3.5px solid blue;
+
+}body>div.header>nav>div.container>div.icon-aria>a>div.icon:hover>span:first-child{
+    border-bottom: 3.5px solid purple;
+
+}
+body>div.header>nav>div.container>div.icon-aria>a>div.icon:hover>span:last-child{
+    border-bottom: 3.5px solid brown;
+
+}
+/* icon  */
+body>div.header>nav>div.container>div.icon-aria>a>div.icon>span{
+    display: block;
+    width:30px;
+    border-bottom: 3.5px solid black;
+    margin: 2px 0px 0px 2.5px
+}
+body>div.header>nav>div.container>div.icon-aria>a>div.icon>span:first-child{
+    margin: 1.50px 0px 0px 2.5px;
+}
